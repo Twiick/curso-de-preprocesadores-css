@@ -1,6 +1,15 @@
 -var titulos = ["Titulo principal","Subtitulo 1","Subtitulo 2","Subtitulo 3"]
 -var usuario = "Juan David"
 
+mixin caja1(imagen, titulo, texto)
+    main.contenido
+        .caja
+            .caja__imagen: img(src="./images/"+imagen alt="Descripción de la imagen")
+            .caja__contenido
+                h3 #{titulo}
+                p #{texto}
+                a.boton Leer más
+
 doctype html
 html(lang="es")
     head
@@ -20,6 +29,7 @@ html(lang="es")
                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error, facilis id nesciunt aliquam aperiam corporis istede lectus voluptatem voluptates. Saepe eveniet ipsa qui consequatur,error vero magni quae quidem.
                     span Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 a.boton Leer más
-        ul
-            each titulo in titulos
-                li=titulo
+        main.contenido
+            +caja1("imagen.png",titulos[1],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum facilis, quaerat obcaecati sapiente officiis itaque voluptas quia. Impedit quo animi numquam deserunt a debitis veritatis magnam assumenda excepturi dolore!")
+            +caja1("imagen.png",titulos[2],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum facilis, quaerat obcaecati sapiente officiis itaque voluptas quia. Impedit quo animi numquam deserunt a debitis veritatis magnam assumenda excepturi dolore!")
+            +caja1("imagen.png",titulos[3],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum facilis, quaerat obcaecati sapiente officiis itaque voluptas quia. Impedit quo animi numquam deserunt a debitis veritatis magnam assumenda excepturi dolore!")
