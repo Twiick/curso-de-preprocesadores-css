@@ -1,9 +1,11 @@
 .intro{
+    background: @color-claro;
     width: 1340px;
     height: 650px;
     padding: 10px;
     margin: 0 auto;
     position: relative;
+    .sombras-cajas;
 
     &__imagen{
         width: 1320px;
@@ -28,16 +30,17 @@
     }
 
     &__categoria{
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
         color: fade(@color-claro, 50%);
+        .Oswald;
     }
 
     &__titulo{
         color: @color-claro;
         font-size: 50px;
+        font-weight: 500;
         font-family: @fuente2;
         text-transform: uppercase;
+        line-height: @fuente-base + 40%;
     }
 
     &__autor{
