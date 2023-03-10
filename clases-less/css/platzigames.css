@@ -1,8 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  color: #333333;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -40,6 +41,7 @@ h3 {
   text-transform: uppercase;
 }
 .intro__titulo {
+  color: #FFFFFF;
   font-size: 50px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -61,5 +63,18 @@ h3 {
   border-radius: 10em;
 }
 .intro__autor span {
+  color: #FFFFFF;
   display: inline-block;
+}
+.articulo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.articulo--principal h2 {
+  margin: 40px 0;
+  font-size: 50px;
+  text-align: center;
+}
+.articulo--principal h3 {
+  color: #8841da;
 }
