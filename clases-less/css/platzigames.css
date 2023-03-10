@@ -25,3 +25,41 @@ h3 {
   height: 624px;
   object-fit: cover;
 }
+.intro__contenido {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 156px;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  text-align: center;
+}
+.intro__categoria {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.intro__titulo {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.intro__autor {
+  width: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+}
+.intro__autor img {
+  width: 60px;
+  height: 50px;
+  padding-right: 10px;
+  float: left;
+  border-radius: 10em;
+}
+.intro__autor span {
+  display: inline-block;
+}
