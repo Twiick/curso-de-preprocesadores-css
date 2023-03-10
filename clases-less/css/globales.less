@@ -18,17 +18,27 @@
     font-size: @font-size;
     line-height: @font-size + 10%;
 }
-
+.fondo(@background){
+    background: @background;
+    color: @color-claro;
+}
 *{
     margin: 0;
     padding: 0;
-    color: @color-primario;
+    color: @color-claro;
     font-family: @fuente1;
     box-sizing: border-box;
 }
 body{
     .fuente(@fuente-base);
+    .fondo(@color-primario);
 }
 h1,h2,h3{
     .Oswald;
+}
+h2{
+    color: @color-secundario;
+}
+h3{
+    margin: 50px 0;
 }

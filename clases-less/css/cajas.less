@@ -1,6 +1,6 @@
 .contenedor--cajas{
     width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -9,7 +9,9 @@
     .sombras-cajas;
     &__contenido{
         background: @color-claro;
+        min-height: 400px;
         padding: 35px;
+        .fondo(@color-secundario)
     }
 
     span{
@@ -18,7 +20,7 @@
     }
 
     a{
-        color: @color-variacion;
+        color: fade(@color-claro, 50%);
         text-decoration: none;
         .Oswald;
     }
