@@ -4,12 +4,16 @@
 @color-variacion: #012179;
 @fuente1: 'Lato', sans-serif;
 @fuente2: 'Oswald', sans-serif;
+@fuente-base: 18px;
 *{
     margin: 0;
     padding: 0;
     color: @color-primario;
     font-family: @fuente1;
     box-sizing: border-box;
+}
+body{
+    line-height: @fuente-base + 10%;
 }
 h1,h2,h3{
     font-family: @fuente2;

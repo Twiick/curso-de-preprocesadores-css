@@ -5,6 +5,9 @@
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
+body {
+  line-height: 28px;
+}
 h1,
 h2,
 h3 {
@@ -39,6 +42,7 @@ h3 {
 .intro__categoria {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
 .intro__titulo {
   color: #FFFFFF;
@@ -63,12 +67,23 @@ h3 {
   border-radius: 10em;
 }
 .intro__autor span {
-  color: #FFFFFF;
   display: inline-block;
+}
+.intro__autor-titulo {
+  color: rgba(255, 255, 255, 0.5);
+}
+.intro__autor-nombre {
+  color: #FFFFFF;
 }
 .articulo--principal {
   max-width: 660px;
   margin: 0 auto;
+}
+.articulo--principal__intro {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
 }
 .articulo--principal h2 {
   margin: 40px 0;
