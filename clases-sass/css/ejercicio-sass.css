@@ -22,13 +22,13 @@ main {
   display: block;
   border-radius: 50em;
 }
-.perfil__nombre {
+.perfil__nombre, .perfil__minibio h2 {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
-.perfil__titulo {
+.perfil__titulo, .perfil__minibio h3 {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -48,6 +48,10 @@ main {
   text-align: center;
 }
 
+.perfil__minibio {
+  margin: 0 auto;
+  padding-top: 20px;
+}
 .estadistica--perfil {
   background: #FFFFFF;
   width: 50%;
@@ -56,6 +60,7 @@ main {
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
+  color: #333333;
   border-radius: 20px;
 }
 .estadistica--perfil h3 {
@@ -69,5 +74,33 @@ main {
   font-family: "Oswald", sans-serif;
   font-size: 12px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.ubicacion--perfil {
+  background: #FFFFFF;
+  width: 50%;
+  height: 90px;
+  margin: 30px auto 0 auto;
+  padding: 20px 0 0 50px;
+  color: #333333;
+  border-radius: 20px;
+}
+.ubicacion--perfil i {
+  padding-right: 10px;
+  display: block;
+  float: left;
+  color: #3F579A;
+  font-size: 40px;
+}
+.ubicacion--perfil h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.ubicacion--perfil h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
   text-transform: uppercase;
 }/*# sourceMappingURL=ejercicio-sass.css.map */
